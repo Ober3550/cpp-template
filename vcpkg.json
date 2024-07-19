@@ -1,0 +1,14 @@
+{
+    "name": "cpp-template",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "fmt",
+        "glm",
+        "gl3w",
+        {
+            "name": "imgui",
+            "default-features": false,
+            "features": ["docking-experimental", "glfw-binding", "opengl3-binding"]
+        }
+    ]
+}
